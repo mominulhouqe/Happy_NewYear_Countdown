@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    font-family:  'Poppins', sans-serif;
+    margin: 0;
+    background-image: url(../image/josh-hild-_TuI8tZHlk4-unsplash\(1\).jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: rgb(239, 239, 246);
+    align-items: center;
+
+
+    
+}
+h1{
+    font-size: 4rem;
+   margin-top: 5rem;
+    font-weight: normal;
+    background-color: blue;
+    padding: 20px;
+}
+
+.countdown-container{
+    display: flex;
+    background-color: blue;
+    padding: 20px;
+}
+
+.big-text{
+font-size: 6rem;
+font-weight: bold;
+line-height: 1;
+margin: 0 2rem;
+background-color: blue;
+}
+.countdown-el{
+    text-align: center;
+    background-color: blue;
+}
+.countdown-el span{
+    font-size: 1.5rem;
+    background-color: blue;
+}
