@@ -6,7 +6,7 @@
 body{
     font-family:  'Poppins', sans-serif;
     margin: 0;
-    background-image: url(../image/josh-hild-_TuI8tZHlk4-unsplash\(1\).jpg);
+    background-image: url(./image/josh-hild-_TuI8tZHlk4-unsplash\(1\).jpg);
     background-position: center center;
     background-size: cover;
     display: flex;
@@ -30,6 +30,9 @@ h1{
     display: flex;
     background-color: blue;
     padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .big-text{
@@ -38,6 +41,7 @@ font-weight: bold;
 line-height: 1;
 margin: 0 2rem;
 background-color: blue;
+margin: 1rem 2rem;
 }
 .countdown-el{
     text-align: center;
